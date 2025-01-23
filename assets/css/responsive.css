@@ -1,3 +1,9 @@
+@media only screen and (max-width: 800px) {
+    .canterMePage {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .img-box {
         width: 100px;
@@ -41,5 +47,17 @@
     .centertwobox .card p,
     ul li {
         font-size: 15px;
+    }
+
+    .canterMePage {
+        margin-top: 60px;
+        overflow: scroll;
+        display: block;
+        width: 100%;
+        height: 500px;
+    }
+
+    .Card {
+        width: 100%;
     }
 }
