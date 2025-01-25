@@ -107,6 +107,7 @@ nav {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     transform: translate(-50%, -50%);
+    transition: 2s all ease linear;
 }
 
 .center-div-btn h4 {
@@ -126,6 +127,12 @@ nav {
     object-fit: cover;
 }
 
+
+.img-box button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
 
 @keyframes animName {
     0% {
@@ -487,4 +494,17 @@ p {
     width: 100%;
     object-fit: cover;
     bottom: -200px;
+}
+
+
+.canterMePage {
+    display: none;
+}
+
+.canterMePage.active {
+    display: block;
+}
+
+.cardimg {
+    display: none !important;
 }
