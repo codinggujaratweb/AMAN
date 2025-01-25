@@ -79,6 +79,11 @@ nav {
 }
 
 /* .About Div */
+.BMC {
+    text-decoration: none;
+    color: #555;
+}
+
 .About {
     position: absolute;
     bottom: 2%;
@@ -198,12 +203,12 @@ nav {
 .card-text {
     width: 70%;
     border: 1px solid whitesmoke;
-    font-family: 'Kalam', serif;
     padding: 20px;
     font-size: 24px;
 }
 
 .card-text .p1 {
+    font-family: 'Kalam', serif !important;
     margin-top: 20px;
     color: #fff;
 }
