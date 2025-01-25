@@ -18,6 +18,8 @@ body::-webkit-scrollbar {
 nav {
     position: fixed !important;
     padding: 20px !important;
+    left: 1;
+    top: 1px;
 }
 
 .logo h1 {
@@ -61,7 +63,7 @@ nav {
 
 /* .socialMedia Div */
 .socialMedia {
-    position: absolute;
+    position: fixed;
     bottom: 20%;
     left: -1.5%;
     rotate: -90deg;
@@ -96,6 +98,15 @@ nav {
     bottom: 2%;
     right: 10%;
 }
+
+/* .Feats Div */
+.Feats {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    rotate: 90deg;
+}
+
 
 
 /* Center Div- Animation */
@@ -205,6 +216,9 @@ nav {
     align-items: center;
     justify-content: space-around;
     z-index: -11111;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: transparent;
 }
 
 .card-text {
@@ -409,6 +423,11 @@ ul li {
 .centertwobox .card p {
     font-size: 20px;
     margin-top: 30px;
+    color: #000;
+}
+
+.centertwobox .card:hover p {
+    color: #ffffff;
 }
 
 .centertwobox .card h2 {
