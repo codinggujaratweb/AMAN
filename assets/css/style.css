@@ -450,6 +450,9 @@ ul li {
 }
 
 
+.canterMePage::-webkit-scrollbar {
+    display: none;
+}
 
 /* me */
 .canterMePage {
@@ -465,6 +468,7 @@ ul li {
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
+    overflow: scroll;
 }
 
 
@@ -482,6 +486,7 @@ p {
 
 .TextCard {
     padding: 20px;
+    width: 70%;
 }
 
 .TextCard h1 {
@@ -495,14 +500,15 @@ p {
 
 .TextCard p {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
     color: lightgray;
 }
 
 .imgCard {
+    width: 30%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 .img_box {
