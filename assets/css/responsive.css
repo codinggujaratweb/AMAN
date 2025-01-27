@@ -60,6 +60,24 @@
         height: 50%;
     }
 
+    .imgCard {
+        position: absolute;
+        bottom: 0;
+        z-index: -999;
+    }
+
+    .img_box {
+        width: 100%;
+        position: relative;
+    }
+
+    .img_box img {
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        bottom: -200px;
+    }
+
     .canterMePage::-webkit-scrollbar {
         display: none;
     }
