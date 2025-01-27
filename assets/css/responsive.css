@@ -55,13 +55,16 @@
     }
 
     .canterMePage {
-        overflow: scroll;
-        width: 300px;
-        height: 50%;
+        /* overflow: scroll; */
+        width: 250px;
+        border: 0;
+        height: 60%;
+        z-index: -0;
     }
 
     .imgCard {
         position: absolute;
+        top: -50px;
         bottom: 0;
         z-index: -999;
     }
@@ -85,6 +88,11 @@
     .Card {
         width: 100%;
     }
+
+    .TextCard {
+        background: linear-gradient(rgba(31, 31, 31, 0.5), rgba(0, 0, 0, 0.5));
+    }
+
 
     .TextCard h1 {
         font-size: 30px;
