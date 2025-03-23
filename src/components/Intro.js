@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import Me from '../assets/Images/profile-img.png'
 
 
@@ -60,7 +60,7 @@ flex-direction: column;
 justify-content: space-evenly;
 
 &>*:last-child{
-    color: ${props => `rgba(${props.theme.bodyRgba},0.6)` };
+    color: ${props => `rgba(${props.theme.bodyRgba},0.6)`};
     font-size: calc(0.5rem + 1.5vw);
     font-weight:300;
 
@@ -73,22 +73,24 @@ justify-content: space-evenly;
 const Intro = () => {
     return (
         <Box
-        initial={{height:0}}
-        animate={{height: '55vh'}}
-        transition={{ type: 'spring', duration:2, delay:1 }}
+            initial={{ height: 0 }}
+            animate={{ height: '55vh' }}
+            transition={{ type: 'spring', duration: 2, delay: 1 }}
         >
             <SubBox>
                 <Text>
                     <h1>Hi,</h1>
-                    <h3>I'm CodeBucks.</h3>
-                    <h6>I design and Code simple yet beautiful websites.</h6>
+                    <h3>I'm Aman Nayak.</h3>
+                    <h6>
+                        a creative web developer crafting elegant, user-centric websites. I blend design and functionality to deliver seamless, visually striking, and engaging digital experiences.
+                    </h6>
                 </Text>
             </SubBox>
             <SubBox>
                 <motion.div
-                initial={{opacity:0}}
-        animate={{opacity: 1}}
-        transition={{ duration:1, delay:2 }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 2 }}
                 >
                     <img className="pic" src={Me} alt="Profile Pic" />
                 </motion.div>
