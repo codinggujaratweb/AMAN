@@ -3,58 +3,58 @@
 export const Work = [
     {
         id: 1,
-        name: "Agency Landing Page",
-        description: "It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags: ["react", "gsap", "styledComponents"],
-
-        demo: "https://agency-website-eta.vercel.app/",
-        github: "https://github.com/codebucks27/Agency-website"
+        name: "E-commerce Website",
+        imgSrc: "https://media.licdn.com/dms/image/v2/D4E22AQHlJuzdeRVBBw/feedshare-shrink_2048_1536/B4EZUFMEnaHMAo-/0/1739548809248?e=1745452800&v=beta&t=uKQDJcBVhKV0f-3wrq8fT7-5KGOFR2Mx9gnPBwjHVMg",
+        description: "Fullstack E-Commerce Website",
+        tags: ["php", "mysql", "jquery", "html", "css", "javascript"],
+        demo: "https://www.linkedin.com/posts/amanayak_fullstack-webdev-it-ugcPost-7296196538450477056-mcgW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2tfEcBd8XSAu_1M4m7KIyH-Jqx_rtIiAk",
+        github: "https://github.com/codinggujaratweb/quintet"
     },
     {
         id: 2,
-        name: "Job listing website",
-        description: "A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags: ["react", "sass"],
-
-        demo: "http://react-job-listing-website.codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/react-job-listing-website"
+        name: "Instagram Clone",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Instagram-clone.jpg",
+        description: "Instagram Clone",
+        tags: ["html", "javascript", "tailwind css"],
+        demo: "https://instagram-clone-blush-zeta.vercel.app/",
+        github: "https://github.com/codinggujaratweb/instagram-clone"
 
     },
     {
         id: 3,
-        name: "Dev.to Clone",
-        description: "A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags: ["react", "api", "sass"],
-
-        demo: "http://devto-clone-codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/devto-clone"
+        name: "Spotify Clone",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Spotify-clone.jpg",
+        description: "Spotify Clone",
+        tags: ["html", "html", "html"],
+        demo: "https://clone-spotify-a.vercel.app/",
+        github: "http://github.com/codinggujaratweb/Spotify-Clone"
     },
     {
         id: 4,
-        name: "Sidebar Menu",
-        description: "A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags: ["react", "styledComponents", "react-router"],
-
-        demo: "https://react-sidebar.vercel.app/",
-        github: "https://github.com/codebucks27/react-sidebar"
+        name: "100+ Fullstack Projects Github",
+        imgSrc: "https://avatars.githubusercontent.com/u/155058144?s=400&u=005e9433bcec335b3d5e6a2887635a883812ac46&v=4",
+        description: "100+ Fullstack Projects Github",
+        tags: ["frontend", "backend"],
+        demo: "https://codinggujaratweb.vercel.app/",
+        github: "https://github.com/codinggujaratweb"
 
     }, {
         id: 5,
-        name: "Todo App(React + Redux)",
-        description: "A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags: ["react", "redux", "framer-motion"],
-
-        demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github: "https://github.com/codebucks27/React-Redux-Todo-App"
+        name: "Blog Application",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/blogweb.png",
+        description: "Blog Application",
+        tags: ["ejs", "nodejs", "expressjs", "mongondb", "cloudinary"],
+        demo: "https://listingapps.onrender.com/listings",
+        github: "https://github.com/codinggujaratweb/listingapps"
 
     },
     {
         id: 6,
-        name: "Responsive Navigation Menu",
-        description: "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags: ["react", "react-router", "css"],
-
-        demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
+        name: "Fackbook Clone",
+        imgSrc: "http://amanayakk.vercel.app/assets/images/project_img/facebook-clone.jpg",
+        description: "Fackbook Clone",
+        tags: ["typescript", "javascript"],
+        demo: "https://facebook-clone-pro-aman-nayaks-projects.vercel.app/",
         github: "https://github.com/codebucks27/React-responsive-navbar"
 
     },

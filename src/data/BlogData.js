@@ -28,7 +28,7 @@ export const Blogs = [
 
     {
         id: 8,
-        name: "100+ Fullstack Projects Gith",
+        name: "100+ Fullstack Projects Github",
         tags: ["frontend", "backend"],
         date: "16 Aug, 2024",
         imgSrc: "https://avatars.githubusercontent.com/u/155058144?s=400&u=005e9433bcec335b3d5e6a2887635a883812ac46&v=4",

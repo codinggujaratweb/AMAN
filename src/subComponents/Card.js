@@ -28,7 +28,7 @@ border: 1px solid ${props => props.theme.text};
 }
 `
 const Title = styled.h2`
-font-size: calc(1em + 0.5vw);
+font-size: calc(0.6em + 0.5vw);
 `
 
 const Description = styled.h2`
@@ -94,14 +94,25 @@ const Item = {
         }
     }
 }
+const Image = styled.div`
+  background-image: ${(props) => `url(${props.img})`};
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit:cover;
+  border: 1px solid transparent;
+  background-position: center center;
 
+`;
 const Card = (props) => {
 
-    const { id, name, description, tags, demo, github } = props.data;
+    const { id, name, imgSrc, description, tags, demo, github } = props.data;
 
     return (
         <Box key={id} variants={Item}>
             <Title>{name}</Title>
+
+            <Image img={imgSrc} />
             <Description>
                 {description}
             </Description>
