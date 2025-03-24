@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
+import { Facebook, Github, Twitter, YouTube, Linkedin } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -32,14 +32,14 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://github.com/codebucks27"}
+          href={"https://github.com/codinggujaratweb"}
         >
           <Github
             width={25}
@@ -48,8 +48,8 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
-      <motion.div
-        initial={{scale:0 }}
+      {/* <motion.div
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
@@ -64,9 +64,9 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
-      <motion.div
-        initial={{scale:0 }}
+      </motion.div> */}
+      {/* <motion.div
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.4 }}
       >
@@ -81,16 +81,33 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
+      </motion.div> */}
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://youtube.com"}
+          href={"https://www.linkedin.com/in/amanayak/"}
+        >
+          <Linkedin
+            width={25}
+            height={25}
+            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+          />
+        </a>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1.6 }}
+      >
+        <a
+          style={{ color: "inherit" }}
+          target="_blank"
+          href={"https://www.youtube.com/@codinggujarat"}
         >
           <YouTube
             width={25}
@@ -99,7 +116,6 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
-
       <Line
         color={props.theme}
         initial={{
