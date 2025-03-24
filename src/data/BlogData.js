@@ -2,70 +2,69 @@
 
 export const Blogs = [
     {
-        id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
-        date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        id: 1,
+        name: "E-commerce Website",
+        tags: ["php", "mysql", "jquery", "html", "css", "javascript"],
+        date: "22 Jan, 2024",
+        imgSrc: "https://media.licdn.com/dms/image/v2/D4E22AQHlJuzdeRVBBw/feedshare-shrink_2048_1536/B4EZUFMEnaHMAo-/0/1739548809248?e=1745452800&v=beta&t=uKQDJcBVhKV0f-3wrq8fT7-5KGOFR2Mx9gnPBwjHVMg",
+        link: "https://www.linkedin.com/posts/amanayak_fullstack-webdev-it-ugcPost-7296196538450477056-mcgW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2tfEcBd8XSAu_1M4m7KIyH-Jqx_rtIiAk"
     },
     {
-        id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        id: 6,
+        name: "Instagram Clone",
+        tags: ["html", "javascript", "tailwind css"],
+        date: "03 Mar, 2024",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Instagram-clone.jpg",
+        link: "https://instagram-clone-blush-zeta.vercel.app/"
     },
     {
-        id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
-        date:"6 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        id: 7,
+        name: "Spotify Clone",
+        tags: ["html", "css", "javascript"],
+        date: "05 June, 2024",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Spotify-clone.jpg",
+        link: "https://clone-spotify-a.vercel.app/"
     },
-    {
-        id:4,
-        name:"How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-        tags:["react","redux","framer-motion"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-        link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
-    },
-    {
-        id:5,
-        name:"What is Higher Order Component (HOC) in React JS?",
-        tags:["react","reactJS","web-development"],
-        date:"3 Feb, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
-    },
-    {
-        id:6,
-        name:"How to implement Pagination Component in React from scratch",
-        tags:["react","css"],
-        date:"5 Jan, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
 
-    },
-   
     {
-        id:7,
-        name:"What is Redux ? Simply Explained!",
-        tags:["react","redux","javascript"],
-        date:"16 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-        link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
+        id: 8,
+        name: "100+ Fullstack Projects Gith",
+        tags: ["frontend", "backend"],
+        date: "16 Aug, 2024",
+        imgSrc: "https://avatars.githubusercontent.com/u/155058144?s=400&u=005e9433bcec335b3d5e6a2887635a883812ac46&v=4",
+        link: "https://github.com/codinggujaratweb"
     },
     {
-        id:8,
-        name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-        tags:["react","framer-motion","styled-components"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        id: 3,
+        name: "Blog Application",
+        tags: ["ejs", "nodejs", "expressjs", "mongondb", "cloudinary"],
+        date: "5 Nov, 2023",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/blogweb.png",
+        link: "https://listingapps.onrender.com/listings"
     },
-  
+    {
+        id: 4,
+        name: "Chat App",
+        tags: ["php", "mysql"],
+        date: "25 July, 2023",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/CharApp.png",
+        link: "https://github.com/codinggujaratweb/chatApp"
+    },
+    {
+        id: 5,
+        name: "Fackbook Clone",
+        tags: ["typescript", "javascript"],
+        date: "26 Aug, 2023",
+        imgSrc: "http://amanayakk.vercel.app/assets/images/project_img/facebook-clone.jpg",
+        link: "https://facebook-clone-pro-aman-nayaks-projects.vercel.app/"
+    },
+
+    {
+        id: 2,
+        name: "Creative Blog Website - 100+ Fullstack Projects",
+        tags: ["html", "css", "javascript"],
+        date: "13 Aug, 2022",
+        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/CreativeBlog.png",
+        link: "https://codinggujarat.vercel.app/"
+    },
 ] 
