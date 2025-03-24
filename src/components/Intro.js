@@ -15,7 +15,10 @@ transform: translate(-50%, -50%);
 width: 65vw;
 height:55vh;
 display: flex;
+  @media (max-width: 768px) {
+    display: block;
 
+  }
 
 background: linear-gradient(
     to right,
@@ -39,6 +42,7 @@ width: 50%;
 position: relative;
 display: flex;
 
+
 .pic{
     position: absolute;
     bottom: 0;
@@ -47,6 +51,17 @@ display: flex;
     width: 100%;
     height: auto;
 }
+      @media (max-width: 800px) {
+   width: 100%;
+    .pic{
+      position: absolute;
+      top:-20%;
+    right:0;
+    transform: translate(-0%,-50%);
+    width: 60%;
+    height: auto;
+    }
+  }
 `
 
 const Text = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import {lightTheme} from './Themes';
-import { Design, Develope} from './AllSvgs';
+import { lightTheme } from './Themes';
+import { Design, Develope } from './AllSvgs';
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -18,6 +18,12 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+        @media (max-width: 700px) {
+display: block;
+margin-top:74px;
+
+    }
+
 
 
 `
@@ -41,6 +47,12 @@ justify-content: space-between;
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
+}
+        @media (max-width: 700px) {
+        width: 80%;
+        margin:10px;
+height: 60vh;
+
 }
 `
 
@@ -85,69 +97,69 @@ ul,p{
 const MySkillsPage = () => {
     return (
         <ThemeProvider theme={lightTheme}>
-<Box>
+            <Box>
 
-<LogoComponent theme='light'/>
-<SocialIcons theme='light'/>
-<PowerButton />
-<ParticleComponent theme='light' />
-            <Main>
-<Title>
-    <Design width={40} height={40} /> Designer
-</Title>
-<Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
-</Description>
-<Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    
-</ul>
-</Description>
+                <LogoComponent theme='light' />
+                <SocialIcons theme='light' />
+                <PowerButton />
+                <ParticleComponent theme='light' />
+                <Main>
+                    <Title>
+                        <Design width={40} height={40} /> Designer
+                    </Title>
+                    <Description>
+                        I love to create design which speaks, Keep it clean, minimal and simple.
+                    </Description>
+                    <Description>
+                        <strong>I like to Design</strong>
+                        <ul>
+                            <li>
+                                Web Design
+                            </li>
+                            <li>
+                                Mobile Apps
+                            </li>
+                        </ul>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <ul>
+                            <li>
+                                Figma
+                            </li>
 
-            </Main>
-            <Main>
-<Title>
-    <Develope width={40} height={40} /> Frontend Developer
-</Title>
-<Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-</Description>
-<Description>
-<strong>Skills</strong>
-<p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
-</p>
-</Description>
-<Description>
-<strong>Tools</strong>
-<p>
-VScode, Github, Codepen etc.
-</p>
-</Description>
+                        </ul>
+                    </Description>
 
-            </Main>
+                </Main>
+                <Main>
+                    <Title>
+                        <Develope width={40} height={40} /> Frontend Developer
+                    </Title>
+                    <Description>
+                        I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+                    </Description>
+                    <Description>
+                        <strong>Skills</strong>
+                        <p>
+                            Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+                        </p>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <p>
+                            VScode, Github, Codepen etc.
+                        </p>
+                    </Description>
 
-            <BigTitle text="SKILLS" top="80%" right="30%" />
+                </Main>
 
-        </Box>
+                <BigTitle text="SKILLS" top="80%" right="30%" />
+
+            </Box>
 
         </ThemeProvider>
-        
+
     )
 }
 

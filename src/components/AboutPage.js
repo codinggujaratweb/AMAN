@@ -53,6 +53,13 @@ const Main = styled.div`
   top: 10rem;
   font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
+        @media (max-width: 780px) {
+        width:70%;
+  left:0;
+  top: 5rem;
+  margin:40px;
+    }
+
 `
 
 

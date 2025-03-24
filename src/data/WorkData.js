@@ -25,7 +25,7 @@ export const Work = [
         name: "Spotify Clone",
         imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Spotify-clone.jpg",
         description: "Spotify Clone",
-        tags: ["html", "html", "html"],
+        tags: ["html", "css", "js"],
         demo: "https://clone-spotify-a.vercel.app/",
         github: "http://github.com/codinggujaratweb/Spotify-Clone"
     },
