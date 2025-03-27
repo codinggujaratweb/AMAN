@@ -3,68 +3,26 @@
 export const Blogs = [
     {
         id: 1,
-        name: "E-commerce Website",
-        tags: ["php", "mysql", "jquery", "html", "css", "js"],
-        date: "22 Jan, 2024",
-        imgSrc: "https://media.licdn.com/dms/image/v2/D4E22AQHlJuzdeRVBBw/feedshare-shrink_2048_1536/B4EZUFMEnaHMAo-/0/1739548809248?e=1745452800&v=beta&t=uKQDJcBVhKV0f-3wrq8fT7-5KGOFR2Mx9gnPBwjHVMg",
-        link: "https://www.linkedin.com/posts/amanayak_fullstack-webdev-it-ugcPost-7296196538450477056-mcgW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2tfEcBd8XSAu_1M4m7KIyH-Jqx_rtIiAk"
+        name: "React Js",
+        tags: ["reactjs"],
+        date: "1 July, 2024",
+        imgSrc: "https://udemy-certificate.s3.amazonaws.com/image/UC-c3d6b63c-8390-4049-8bd2-f640f6d88530.jpg?v=1719800244000",
+        link: "https://www.udemy.com/certificate/UC-c3d6b63c-8390-4049-8bd2-f640f6d88530/"
     },
     {
         id: 6,
-        name: "Instagram Clone",
-        tags: ["html", "js", "tailwind css"],
-        date: "03 Mar, 2024",
-        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Instagram-clone.jpg",
-        link: "https://instagram-clone-blush-zeta.vercel.app/"
+        name: "Python And Flask Framework",
+        tags: ["Python", "Flask"],
+        date: "1 July, 2024",
+        imgSrc: "https://udemy-certificate.s3.amazonaws.com/image/UC-d50a3503-ccc3-462c-9eb2-0831729581f8.jpg?v=1719839306000",
+        link: "https://www.udemy.com/certificate/UC-d50a3503-ccc3-462c-9eb2-0831729581f8/"
     },
     {
         id: 7,
-        name: "Spotify Clone",
-        tags: ["html", "css", "js"],
+        name: "AWS Certified Advanced Networking",
+        tags: ["AWS", "AWS Networking"],
         date: "05 June, 2024",
-        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/Spotify-clone.jpg",
-        link: "https://clone-spotify-a.vercel.app/"
-    },
-
-    {
-        id: 8,
-        name: "100+ Fullstack Projects Github",
-        tags: ["frontend", "backend"],
-        date: "16 Aug, 2024",
-        imgSrc: "https://avatars.githubusercontent.com/u/155058144?s=400&u=005e9433bcec335b3d5e6a2887635a883812ac46&v=4",
-        link: "https://github.com/codinggujaratweb"
-    },
-    {
-        id: 3,
-        name: "Blog Application",
-        tags: ["ejs", "nodejs", "expressjs", "mongondb", "cloudinary"],
-        date: "5 Nov, 2023",
-        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/blogweb.png",
-        link: "https://listingapps.onrender.com/listings"
-    },
-    {
-        id: 4,
-        name: "Chat App",
-        tags: ["php", "mysql"],
-        date: "25 July, 2023",
-        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/CharApp.png",
-        link: "https://github.com/codinggujaratweb/chatApp"
-    },
-    {
-        id: 5,
-        name: "Fackbook Clone",
-        tags: ["typescript", "js"],
-        date: "26 Aug, 2023",
-        imgSrc: "http://amanayakk.vercel.app/assets/images/project_img/facebook-clone.jpg",
-        link: "https://facebook-clone-pro-aman-nayaks-projects.vercel.app/"
-    },
-
-    {
-        id: 2,
-        name: "Creative Blog Website - 100+ Fullstack Projects",
-        tags: ["html", "css", "js"],
-        date: "13 Aug, 2022",
-        imgSrc: "https://amanayakk.vercel.app/assets/images/project_img/CreativeBlog.png",
-        link: "https://codinggujarat.vercel.app/"
-    },
+        imgSrc: "https://udemy-certificate.s3.amazonaws.com/image/UC-bce0b79f-8a9d-4f76-9d8b-03f01c78c661.jpg?v=1742962564000",
+        link: "https://www.udemy.com/certificate/UC-bce0b79f-8a9d-4f76-9d8b-03f01c78c661/"
+    }
 ] 
