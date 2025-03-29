@@ -35,6 +35,21 @@ background-size: 100% 2px;
 
 
     z-index:1;
+@media (max-width: 768px) {
+background: linear-gradient(
+    to right,
+    ${props => props.theme.body} 0%,
+    ${props => props.theme.text} 0%) bottom,
+    linear-gradient(
+    to right,${props => props.theme.body} 100%, ${props => props.theme.text} 100%) top;
+    background-repeat: no-repeat;
+background-size: 100% 2px;
+    border-left: 2px solid ${props => props.theme.body};
+    border-right: 2px solid ${props => props.theme.text};
+
+    z-index:1;
+
+}
 
 `
 const SubBox = styled.div`
@@ -55,9 +70,9 @@ display: flex;
    width: 100%;
     .pic{
       position: absolute;
-      top:-20%;
-    right:0;
-    transform: translate(-0%,-50%);
+      right:50%;
+      bottom:50%;
+    transform: translate(-50%,80%);
     width: 60%;
     height: auto;
     }
@@ -97,7 +112,7 @@ const Intro = () => {
                     <h1>Hi,</h1>
                     <h3>I'm Aman Nayak.</h3>
                     <h6>
-                        a creative web developer crafting elegant, user-centric websites. I blend design and functionality to deliver seamless, visually striking, and engaging digital experiences.
+                        A creative web developer crafting elegant, user-centric websites with a perfect blend of design and functionality.
                     </h6>
                 </Text>
             </SubBox>

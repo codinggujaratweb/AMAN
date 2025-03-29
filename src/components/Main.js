@@ -123,6 +123,15 @@ width: ${props => props.click ? '50%' : '0%'};
 height: ${props => props.click ? '100%' : '0%'};
 z-index:1;
 transition: height 0.5s ease, width 1s ease 0.5s;
+@media (max-width: 768px) {
+position: absolute;
+top: 0;
+background-color: #000;
+left: 0%;
+bottom: 50%;
+width: ${props => props.click ? '100%' : '0%'};
+height: ${props => props.click ? '50%' : '0%'};
+  }
 `
 
 
